@@ -6,7 +6,7 @@ error_reporting(0);
     {
     if($email == "admin" and $password == "admin"){
         session_start();
-        $_SESSION['username']="Mohanapriya";
+        $_SESSION['username']="admin";
         header("location:adminpage.php");
     } 
     else{
