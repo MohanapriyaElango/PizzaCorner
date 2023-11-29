@@ -4,7 +4,7 @@ error_reporting(0);
     $password = $_POST["adminpass"];
     if(!isset($_SESSION['username']))
     {
-    if($email == "Mohanapriya" and $password == "mona"){
+    if($email == "admin" and $password == "admin"){
         session_start();
         $_SESSION['username']="Mohanapriya";
         header("location:adminpage.php");
